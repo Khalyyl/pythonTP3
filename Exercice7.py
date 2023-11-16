@@ -9,3 +9,7 @@ print(ch2)
 #cours
 ch3 = ch.split(" ")[-1]
 print(ch3)
+
+## est celui qui révise 
+ch4 = " ".join(ch.split(' ')[3:7])
+print(ch4)
