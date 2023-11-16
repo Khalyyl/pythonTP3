@@ -13,7 +13,14 @@ for i in range(0, len(t)):
     t2.append(sum(t[:i+1]))
 
 
-x = float(input("Donner un entier decimal : "))
-n = int(input("Donner le nombre des decimales : "))
+x = float(input("Donner x : "))
+## print(x)
+Resultat=str(x).split('.')[1]
+str(Resultat)
+Liste = []
+for i in range(0,len(Resultat)):
+    Liste.append(Resultat[i])
+print("La liste des nombres de décimales ",Liste)
 
-print(list(str(x).split(".")[1][0:n]))
+## print(list(str(x).split(".")[1][0:n]))
+
